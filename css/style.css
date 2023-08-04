@@ -1,0 +1,1238 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Montserrat Alternates', sans-serif; */
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.landing-page {
+    background: #ffffff;
+    width: 100vw;
+    /* height: 4337px; */
+    position: relative;
+    overflow: hidden;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 8rem;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.section-hero {
+    background-color: #f2f9ff;
+    width: 100%;
+    padding: 0 15rem;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+/* ------------------------------------------------------------ */
+/* ------------------------------------------------------------ */
+
+.section-nav {
+    display: flex;
+    flex-direction: row;
+    gap: 28rem;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    width: 100vw;
+    background: transparent;
+    padding: 2rem 0;
+    z-index: 10;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.nav-logo {
+    flex-shrink: 0;
+    width: 232px;
+    height: 51.31px;
+    position: static;
+    cursor: pointer;
+}
+
+.logo {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+
+.edukaam {
+    color: #082338;
+    text-align: center;
+    font: 700 32px 'Montserrat Alternates', sans-serif;
+    position: absolute;
+    left: 69px;
+    top: 6px;
+}
+
+.nav-links {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.hamburger {
+    display: none;
+}
+
+.find-jobs {
+    color: #061726;
+    text-align: left;
+    font: 500 2rem 'Montserrat', sans-serif;
+    position: relative;
+    cursor: pointer;
+}
+
+.browse-companies {
+    color: #061726;
+    text-align: left;
+    font: 500 2rem 'Montserrat', sans-serif;
+    position: relative;
+    cursor: pointer;
+}
+
+.nav-btn {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.login-btn {
+    padding: 15px 30px 15px 30px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    position: relative;
+    outline: none;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.login {
+    color: #1c75bc;
+    text-align: left;
+    font: 600 20px 'Montserrat Alternates', sans-serif;
+    position: relative;
+}
+
+.signUp-btn {
+    background: #1c75bc;
+    border-radius: 5px;
+    padding: 15px 30px 15px 30px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    position: relative;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    z-index: 1;
+}
+
+.sign-up {
+    color: #ffffff;
+    text-align: left;
+    font: 600 20px 'Montserrat Alternates', sans-serif;
+    position: relative;
+}
+
+/* ------------------------------------------------------------ */
+/* ------------------------------------------------------------ */
+
+.hero {
+    display: flex;
+    flex-shrink: 0;
+    width: 100%;
+    height: 77.2rem;
+    position: relative;
+    overflow: hidden;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.rectangle {
+    border-style: solid;
+    border-color: #93c949;
+    border-width: 4px;
+    width: 75rem;
+    height: 35.6rem;
+    position: absolute;
+    transform-origin: 0 0;
+    z-index: 0;
+}
+
+.number-1 {
+    left: 140rem;
+    top: -2rem;
+    transform: rotate(45deg) scale(1, 1);
+}
+
+.number-2 {
+    left: 145rem;
+    top: 23rem;
+    transform: rotate(45deg) scale(1, 1);
+}
+
+.number-3 {
+    left: 120rem;
+    top: 36rem;
+    transform: rotate(45deg) scale(1, 1);
+}
+
+.number-4 {
+    left: 125rem;
+    top: 91rem;
+    transform: rotate(-90deg) scale(1, 1);
+}
+
+.number-5 {
+    left: 108rem;
+    top: 130rem;
+    transform: rotate(-90deg) scale(1, 1);
+}
+
+.number-6 {
+    left: 120rem;
+    top: 65rem;
+    transform: rotate(-45deg) scale(1, 1);
+}
+
+.hero-img {
+    width: 53rem;
+    height: 70rem;
+    position: absolute;
+    left: 100rem;
+    top: 7.5rem;
+}
+
+.hero-content {
+    margin-left: 25rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.discover {
+    color: #082338;
+    text-align: left;
+    font: 900 6.4rem/8.2rem 'Montserrat Alternates', sans-serif;
+    position: relative;
+}
+
+.more-than {
+    color: #082338;
+    text-align: left;
+    font: 900 6.4rem/8.2rem 'Montserrat Alternates', sans-serif;
+    position: relative;
+}
+
+._5000-jobs {
+    color: #1c75bc;
+    text-align: left;
+    font: 800 6.4rem/8.2rem 'Montserrat Alternates', sans-serif;
+    position: relative;
+}
+
+.underline-vector {
+    flex-shrink: 0;
+    position: relative;
+    overflow: visible;
+}
+
+.hero-sub {
+    color: #030c13;
+    text-align: left;
+    font: 500 2rem 'Montserrat', sans-serif;
+    width: 50rem;
+    margin-top: 4rem;
+    /* position: absolute;
+    left: 120px;
+    top: 451px;
+     */
+}
+
+.popular-pos {
+    color: #030c13;
+    text-align: left;
+    font: 400 1.6rem 'Montserrat', sans-serif;
+    margin-top: 2rem;
+}
+
+.search-section {
+    background: #ffffff;
+    border-radius: 5px;
+    padding: 2rem;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    align-items: center;
+    justify-content: flex-start;
+    box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.15);
+    z-index: 2;
+    margin-top: 4rem;
+}
+
+.job {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.search {
+    flex-shrink: 0;
+    position: relative;
+    overflow: visible;
+}
+
+.search-box {
+    border-bottom: 1px solid #082338;
+}
+
+.search-box-inputs {
+    color: rgba(8, 35, 56, 0.50);
+    text-align: left;
+    font: 400 16px 'Montserrat', sans-serif;
+    position: relative;
+    border: none;
+    outline: none;
+    padding-bottom: 1rem;
+}
+
+
+.section-location {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    align-items: center;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.location {
+    flex-shrink: 0;
+    position: relative;
+    overflow: visible;
+}
+
+.down-arrow {
+    flex-shrink: 0;
+    position: relative;
+    overflow: visible;
+}
+
+.search-btn {
+    background: #1c75bc;
+    border-radius: 5px;
+    padding: 15px 30px 15px 30px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    position: relative;
+    cursor: pointer;
+    ;
+}
+
+.search-my-job {
+    color: #ffffff;
+    text-align: left;
+    font: 600 20px 'Montserrat Alternates', sans-serif;
+    position: relative;
+}
+
+.triangle {
+    position: absolute;
+    right: 0;
+    bottom: -1px;
+    overflow: visible;
+}
+
+/* -------------------------------------------------------- */
+/* -------------------------------------------------------- */
+
+.client-banner {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.companies-we-helped-grow {
+    color: #030c13;
+    text-align: left;
+    font: 400 16px 'Montserrat', sans-serif;
+    position: relative;
+}
+
+.image-client-banner {
+    flex-shrink: 0;
+    width: 1200px;
+    height: 97.67px;
+    position: relative;
+}
+
+/* ------------------------------------------------------------ */
+/* ------------------------------------------------------------ */
+
+.section-explore {
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.explore-by-category {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-shrink: 0;
+    width: 120rem;
+    position: relative;
+}
+
+.section-explore-title {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    align-items: center;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.explore-by {
+    color: #082338;
+    text-align: left;
+    font: 700 40px 'Montserrat', sans-serif;
+    position: relative;
+}
+
+.category-txt {
+    color: #1c75bc;
+    text-align: left;
+    font: 700 40px 'Montserrat Alternates', sans-serif;
+    position: relative;
+}
+
+.section-explore-btn {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+    border: none;
+    outline: none;
+    background: transparent;
+    cursor: pointer;
+}
+
+.view-all {
+    color: #1c75bc;
+    text-align: left;
+    font: 600 20px 'Montserrat', sans-serif;
+    position: relative;
+}
+
+.right-arrow {
+    flex-shrink: 0;
+    position: relative;
+    overflow: visible;
+}
+
+.categories {
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    flex-shrink: 0;
+    max-width: 120rem;
+    position: relative;
+}
+
+.category {
+    border: 1px solid #1c75bc;
+    border-radius: 5px;
+    padding: 3rem 6.2rem 3rem 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.category-icon {
+    flex-shrink: 0;
+    width: 4.8rem;
+    height: 4.8rem;
+    position: relative;
+    overflow: hidden;
+}
+
+.group {
+    position: absolute;
+    left: 5.8px;
+    top: 5.4px;
+    overflow: visible;
+}
+
+.category-details {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.category-name {
+    color: #1c75bc;
+    text-align: left;
+    font: 600 2.4rem 'Montserrat', sans-serif;
+    position: relative;
+}
+
+.category-jobs-available {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.jobs-available {
+    color: #1c75bc;
+    text-align: left;
+    font: 600 14px 'Montserrat', sans-serif;
+    position: relative;
+}
+
+.right-arrow-section {
+    flex-shrink: 0;
+    position: relative;
+    overflow: visible;
+}
+
+.engg-1 {
+    position: absolute;
+    left: 14.2px;
+    top: 11.2px;
+    overflow: visible;
+}
+
+.engg-2 {
+    position: absolute;
+    left: 3.56px;
+    top: 3px;
+    overflow: visible;
+}
+
+/* ---------------------------------------------------------- */
+/* ---------------------------------------------------------- */
+
+.promotion-banner {
+    flex-shrink: 0;
+    width: 120rem;
+    height: 478px;
+    position: relative;
+}
+
+.banner {
+    display: flex;
+    background: #1c75bc;
+    padding: 3rem;
+    gap: 5rem;
+}
+
+
+.banner-txt {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.banner-title {
+    color: #ffffff;
+    text-align: left;
+    font: 700 40px 'Montserrat', sans-serif;
+    position: relative;
+    width: 298px;
+}
+
+.banner-title-secondary {
+    color: #ffffff;
+    text-align: left;
+    font: 400 16px 'Montserrat', sans-serif;
+    position: relative;
+}
+
+.banner-btn {
+    background: #ffffff;
+    border-radius: 5px;
+    padding: 15px 30px 15px 30px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    position: relative;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.sign-up-for-free {
+    color: #1c75bc;
+    text-align: left;
+    font: 600 20px 'Montserrat', sans-serif;
+    position: relative;
+}
+
+.banner-img {
+    position: absolute;
+    right: 0;
+    top: 1.5rem;
+}
+
+/* ------------------------------------------------------------ */
+/* ------------------------------------------------------------ */
+
+.section-featured {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.section-featured-heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 120rem;
+}
+
+.sec-fea-head-txt {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.sec-fea-head-btn {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    outline: none;
+    background: transparent;
+    cursor: pointer;
+}
+
+.featured {
+    color: #082338;
+    text-align: left;
+    font: 700 40px 'Montserrat', sans-serif;
+    position: relative;
+}
+
+.jobs {
+    color: #1c75bc;
+    text-align: left;
+    font: 700 40px 'Montserrat Alternates', sans-serif;
+    position: relative;
+}
+
+.view-all-jobs {
+    color: #1c75bc;
+    text-align: left;
+    font: 600 20px 'Montserrat', sans-serif;
+    position: relative;
+}
+
+.featured-jobs {
+    display: flex;
+    max-width: 120rem;
+    align-items: flex-start;
+    align-content: flex-start;
+    gap: 3.6rem;
+    flex-wrap: wrap;
+}
+
+.job-cards {
+    border: 2px solid #1C75BC;
+    border-radius: 5px;
+    padding: 2rem 3.2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 30rem;
+}
+
+.Company {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.job-type {
+    border: 1px solid #1C75BC;
+    padding: 0.5rem;
+    border-radius: 2px;
+    color: #1C75BC;
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+.job-post {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.job-position {
+    font-size: 1.5rem;
+    font-weight: 600;
+    letter-spacing: 0.06rem;
+    color: #082338;
+}
+
+.job-location {
+    color: #1C75BC;
+    font-weight: 600;
+}
+
+.job-description {
+    font-weight: 600;
+    color: #082338;
+    font-size: 1.4rem
+}
+
+.job-field {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    font-size: 1.4rem;
+}
+
+.yellowColor {
+    color: #FFB836;
+    font-weight: 600;
+    background: #FDF3EB;
+    padding: 0.8rem;
+    border-radius: 5rem;
+}
+
+.blueColor {
+    color: #26A4FF;
+    font-weight: 600;
+    background: #F8F8FE;
+    padding: 0.8rem;
+    border-radius: 5rem;
+}
+
+.greenColor {
+    color: #93C949;
+    font-weight: 600;
+    background: #EAFFCD;
+    padding: 0.8rem;
+    border-radius: 5rem;
+}
+
+/* ------------------------------------------------------------ */
+/* ------------------------------------------------------------ */
+
+.latest-jobs-openings {
+    position: relative;
+    background: #F2F9FF;
+    overflow: hidden;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10rem 0;
+    flex-direction: column;
+}
+
+.latest-jobs {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    width: 120rem;
+}
+
+.section-latest-jobs-heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 120rem;
+}
+
+.sec-l-j-head-txt {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.sec-l-j-head-btn {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    outline: none;
+    background: transparent;
+    cursor: pointer;
+}
+
+.latest_jobs {
+    color: #082338;
+    text-align: left;
+    font: 700 40px 'Montserrat', sans-serif;
+    position: relative;
+}
+
+.openings {
+    color: #1c75bc;
+    text-align: left;
+    font: 700 40px 'Montserrat Alternates', sans-serif;
+    position: relative;
+}
+
+.view-all-jobs {
+    color: #1c75bc;
+    text-align: left;
+    font: 600 20px 'Montserrat', sans-serif;
+    position: relative;
+}
+
+.latest-openings {
+    display: flex;
+    max-width: 120rem;
+    align-items: center;
+    align-content: center;
+    gap: 3.6rem;
+    flex-wrap: wrap;
+}
+
+.opening-cards {
+    border: 2px solid #1C75BC;
+    border-radius: 5px;
+    padding: 2rem 3.2rem;
+    display: flex;
+    gap: 2rem;
+    width: 50rem;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 5;
+    background: #fff;
+}
+
+.job-type {
+    border: 1px solid #1C75BC;
+    padding: 0.5rem;
+    border-radius: 2px;
+    color: #1C75BC;
+    font-weight: 500;
+    font-size: 1.4rem;
+    height: fit-content;
+}
+
+.job-post {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.job-position {
+    font-size: 1.8rem;
+    font-weight: 600;
+    letter-spacing: 0.06rem;
+    color: #082338;
+}
+
+.job-location {
+    color: #1C75BC;
+    font-weight: 600;
+    font-size: 1.4rem;
+}
+
+.job-opening-field {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    font-size: 1.2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* ------------------------------------------------------------ */
+/* ------------------------------------------------------------ */
+
+.footer {
+    background: #082338;
+    padding: 50px 0px 50px 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    position: relative;
+    width: 100vw;
+}
+
+.footer-row {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-shrink: 0;
+    width: 1200px;
+    max-width: 1200px;
+    position: relative;
+}
+
+.foot-row-1-col {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2rem;
+}
+
+.foot-row-1-col-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4rem;
+}
+
+.footer-logo {
+    flex-shrink: 0;
+    width: 232px;
+    height: 51.31px;
+    position: static;
+}
+
+.edukaam-logo {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+
+.edukaam-name {
+    color: #ffffff;
+    text-align: center;
+    font: 700 32px 'Montserrat Alternates', sans-serif;
+    position: absolute;
+    left: 69px;
+    top: 6px;
+}
+
+.about {
+    color: #ffffff;
+    text-align: left;
+    font: 700 16px 'Montserrat', sans-serif;
+    position: relative;
+}
+
+.resources {
+    color: #ffffff;
+    text-align: left;
+    font: 700 16px 'Montserrat', sans-serif;
+    position: relative;
+}
+
+.get-job-notification {
+    color: #ffffff;
+    text-align: left;
+    font: 700 16px 'Montserrat', sans-serif;
+    position: relative;
+}
+
+.company-desc {
+    color: #ffffff;
+    text-align: left;
+    font: 400 16px 'Montserrat', sans-serif;
+    position: relative;
+    width: 310px;
+}
+
+.footer-about-menu {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.companies,
+.pricing,
+.terms,
+.advice,
+.privacy-policy,
+.help-docs,
+.guide,
+.updates,
+.contact-us {
+    color: #ffffff;
+    text-align: left;
+    font: 400 16px 'Montserrat', sans-serif;
+    position: relative;
+}
+
+.footer-resources-menu {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.subscribe-section {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.subs-txt {
+    color: #ffffff;
+    text-align: left;
+    font: 400 16px 'Montserrat', sans-serif;
+    position: relative;
+    width: 345px;
+}
+
+.subs-form {
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    gap: 0px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.subs-email {
+    background: #ffffff;
+    padding: 14px 18px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.email-address {
+    color: #1c75bc;
+    text-align: left;
+    font: 600 14px 'Montserrat', sans-serif;
+    position: relative;
+    border: none;
+    outline: none;
+}
+
+.subs-btn {
+    background: #93c949;
+    border-radius: 0px 5px 5px 0px;
+    padding: 15px 30px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.subscribe {
+    color: #082338;
+    text-align: left;
+    font: 600 14px 'Montserrat', sans-serif;
+    position: relative;
+}
+
+.footer-row-2 {
+    display: flex;
+    flex-direction: row;
+    gap: 559px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    max-width: 1200px;
+    position: relative;
+}
+
+.footer-copy {
+    display: flex;
+    flex-direction: row;
+    gap: 9px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.copyright {
+    color: #ffffff;
+    text-align: left;
+    font: 400 16px 'Montserrat', sans-serif;
+    position: relative;
+}
+
+.ic-baseline-copyright {
+    flex-shrink: 0;
+    position: relative;
+    overflow: visible;
+}
+
+._2023-edukaam-all-rights-reserved {
+    color: #ffffff;
+    text-align: left;
+    font: 400 16px 'Montserrat', sans-serif;
+    position: relative;
+}
+
+.footer-social {
+    flex-shrink: 0;
+    width: 213px;
+    height: 36px;
+    position: static;
+}
+
+.ic-baseline-facebook {
+    position: absolute;
+    left: 987px;
+    bottom: 0px;
+    overflow: visible;
+}
+
+.mdi-linkedin {
+    position: absolute;
+    left: 1046px;
+    bottom: 0px;
+    overflow: visible;
+}
+
+.mdi-instagram {
+    position: absolute;
+    left: 1105px;
+    bottom: 0px;
+    overflow: visible;
+}
+
+.mdi-twitter {
+    position: absolute;
+    left: 1164px;
+    bottom: 0px;
+    overflow: visible;
+}
+
+.footer a {
+    text-decoration: none;
+}

@@ -1,0 +1,760 @@
+@media screen and (max-width: 370px) {
+    .content {
+        gap: 5rem;
+    }
+
+    .rectangle {
+        display: none;
+    }
+
+    .section-nav {
+        justify-content: space-between;
+        gap: 0;
+
+    }
+
+    .nav-links {
+        display: none;
+    }
+
+    .nav-btn {
+        display: none;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    .hero {
+        flex-direction: column;
+        margin-top: 10rem;
+        height: fit-content;
+    }
+
+    .hero-img {
+        display: none;
+    }
+
+    .hero-content {
+        margin: 0;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .discover {
+        font-size: 4.2rem;
+        line-height: 1.2;
+    }
+
+    .more-than {
+        font-size: 4.2rem;
+        line-height: 1.2;
+    }
+
+    ._5000-jobs {
+        font-size: 4.2rem;
+        line-height: 1.2;
+    }
+
+    .underline-vector {
+        width: 25rem;
+    }
+
+    .hero-sub {
+        text-align: center;
+        width: 90vw;
+        margin-top: 2rem;
+    }
+
+    .popular-pos {
+        text-align: center;
+        width: 90vw;
+    }
+
+    .search-section {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 5rem 3rem;
+        gap: 4rem;
+        margin-top: 2rem;
+    }
+
+    .down-arrow {
+        position: absolute;
+        right: 0;
+    }
+
+    .search-my-job {
+        color: #ffffff;
+        text-align: center;
+        font: 600 1.4rem'Montserrat Alternates', sans-serif;
+        position: relative;
+    }
+
+    .triangle {
+        width: 100%;
+        width: 1rem;
+        bottom: -10;
+    }
+
+    .client-banner {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .image-client-banner {
+        width: 100vw;
+        height: auto;
+    }
+
+    .section-explore {
+        align-items: center;
+        justify-content: center;
+        gap: 2rem;
+    }
+
+    .explore-by-category {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .explore-by,
+    .category-txt {
+        font-size: 2.8rem;
+    }
+
+    .view-all {
+        font-size: 1.8rem;
+    }
+
+    .categories {
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .promotion-banner {
+        width: 100vw;
+    }
+
+    .banner {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .banner-img {
+        width: 50%;
+        top: 35rem;
+        right: 2rem;
+    }
+
+    .section-featured {
+        margin-top: 2rem;
+        align-items: center;
+        justify-content: center;
+        gap: 2rem;
+    }
+
+    .section-featured-heading {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .featured,
+    .jobs {
+        font-size: 2.8rem;
+    }
+
+    .view-all-jobs {
+        font-size: 1.8rem;
+    }
+
+    .featured-jobs {
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .latest-jobs-openings {
+        width: 100vw;
+    }
+
+    .latest-jobs {
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    .section-latest-jobs-heading {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .latest_jobs,
+    .openings {
+        font-size: 2.8rem;
+    }
+
+    .view-all-jobs {
+        font-size: 1.8rem;
+    }
+
+    .latest-openings {
+        flex-direction: column;
+        width: 90vw;
+    }
+
+    .opening-cards {
+        width: 15rem;
+        flex-direction: column;
+    }
+
+    .footer {
+        width: 100vw;
+    }
+
+    .footer-row {
+        flex-direction: column;
+        width: 90%;
+        gap: 4rem
+    }
+
+    .foot-row-1-col-menu {
+        gap: 2rem;
+    }
+
+    .footer-row-2 {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 2rem;
+    }
+
+    .footer-copy {
+        padding: 0 2rem;
+    }
+
+    .footer-social {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+    }
+
+    .ic-baseline-facebook,
+    .mdi-linkedin,
+    .mdi-instagram,
+    .mdi-twitter {
+        position: initial;
+    }
+
+}
+
+@media screen and (max-width: 410px) {
+    .content {
+        gap: 5rem;
+    }
+
+    .rectangle {
+        display: none;
+    }
+
+    .section-nav {
+        justify-content: space-between;
+        gap: 0;
+
+    }
+
+    .nav-links {
+        display: none;
+    }
+
+    .nav-btn {
+        display: none;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    .hero {
+        flex-direction: column;
+        margin-top: 10rem;
+        height: fit-content;
+    }
+
+    .hero-img {
+        display: none;
+    }
+
+    .hero-content {
+        margin: 0;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .discover {
+        font-size: 4.2rem;
+        line-height: 1.2;
+    }
+
+    .more-than {
+        font-size: 4.2rem;
+        line-height: 1.2;
+    }
+
+    ._5000-jobs {
+        font-size: 4.2rem;
+        line-height: 1.2;
+    }
+
+    .underline-vector {
+        width: 25rem;
+    }
+
+    .hero-sub {
+        text-align: center;
+        width: 90vw;
+        margin-top: 2rem;
+    }
+
+    .popular-pos {
+        text-align: center;
+        width: 90vw;
+    }
+
+    .search-section {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 5rem 3rem;
+        gap: 4rem;
+        margin-top: 2rem;
+    }
+
+    .down-arrow {
+        position: absolute;
+        right: 0;
+    }
+
+    .search-my-job {
+        color: #ffffff;
+        text-align: center;
+        font: 600 1.4rem'Montserrat Alternates', sans-serif;
+        position: relative;
+    }
+
+    .triangle {
+        width: 100%;
+        width: 1rem;
+        bottom: -10;
+    }
+
+    .client-banner {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .image-client-banner {
+        width: 100vw;
+        height: auto;
+    }
+
+    .section-explore {
+        align-items: center;
+        justify-content: center;
+        gap: 2rem;
+    }
+
+    .explore-by-category {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .explore-by,
+    .category-txt {
+        font-size: 2.8rem;
+    }
+
+    .view-all {
+        font-size: 1.8rem;
+    }
+
+    .categories {
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .promotion-banner {
+        width: 100vw;
+    }
+
+    .banner {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .banner-img {
+        width: 50%;
+        top: 35rem;
+        right: 2rem;
+    }
+
+    .section-featured {
+        margin-top: 2rem;
+        align-items: center;
+        justify-content: center;
+        gap: 2rem;
+    }
+
+    .section-featured-heading {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .featured,
+    .jobs {
+        font-size: 2.8rem;
+    }
+
+    .view-all-jobs {
+        font-size: 1.8rem;
+    }
+
+    .featured-jobs {
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .latest-jobs-openings {
+        width: 100vw;
+    }
+
+    .latest-jobs {
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    .section-latest-jobs-heading {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .latest_jobs,
+    .openings {
+        font-size: 2.8rem;
+    }
+
+    .view-all-jobs {
+        font-size: 1.8rem;
+    }
+
+    .latest-openings {
+        flex-direction: column;
+        width: 100vw;
+    }
+
+    .opening-cards {
+        width: 30rem;
+        flex-direction: column;
+    }
+
+    .footer {
+        width: 100vw;
+    }
+
+    .footer-row {
+        flex-direction: column;
+        width: 90%;
+        gap: 4rem
+    }
+
+    .foot-row-1-col-menu {
+        gap: 2rem;
+    }
+
+    .footer-row-2 {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 2rem;
+    }
+
+    .footer-copy {
+        padding: 0 2rem;
+    }
+
+    .footer-social {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+    }
+
+    .ic-baseline-facebook,
+    .mdi-linkedin,
+    .mdi-instagram,
+    .mdi-twitter {
+        position: initial;
+    }
+
+}
+
+@media screen and (max-width: 440px) {
+    .content {
+        gap: 5rem;
+    }
+
+    .rectangle {
+        display: none;
+    }
+
+    .section-nav {
+        justify-content: space-between;
+        gap: 0;
+    }
+
+    .nav-links {
+        display: none;
+    }
+
+    .nav-btn {
+        display: none;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    .hero {
+        flex-direction: column;
+        margin-top: 10rem;
+        height: fit-content;
+    }
+
+    .hero-img {
+        display: none;
+    }
+
+    .hero-content {
+        margin: 0;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .discover {
+        font-size: 4.2rem;
+        line-height: 1.2;
+    }
+
+    .more-than {
+        font-size: 4.2rem;
+        line-height: 1.2;
+    }
+
+    ._5000-jobs {
+        font-size: 4.2rem;
+        line-height: 1.2;
+    }
+
+    .underline-vector {
+        width: 25rem;
+    }
+
+    .hero-sub {
+        text-align: center;
+        width: 90vw;
+        margin-top: 2rem;
+    }
+
+    .popular-pos {
+        text-align: center;
+        width: 90vw;
+    }
+
+    .search-section {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 5rem 3rem;
+        gap: 4rem;
+        margin-top: 2rem;
+    }
+
+    .down-arrow {
+        position: absolute;
+        right: 0;
+    }
+
+    .search-my-job {
+        color: #ffffff;
+        text-align: center;
+        font: 600 1.4rem'Montserrat Alternates', sans-serif;
+        position: relative;
+    }
+
+    .triangle {
+        width: 100%;
+        width: 1rem;
+        bottom: -10;
+    }
+
+    .client-banner {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .image-client-banner {
+        width: 100vw;
+        height: auto;
+    }
+
+    .section-explore {
+        align-items: center;
+        justify-content: center;
+        gap: 2rem;
+    }
+
+    .explore-by-category {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .explore-by,
+    .category-txt {
+        font-size: 2.8rem;
+    }
+
+    .view-all {
+        font-size: 1.8rem;
+    }
+
+    .categories {
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .promotion-banner {
+        width: 100vw;
+    }
+
+    .banner {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .banner-img {
+        width: 50%;
+        top: 35rem;
+        right: 2rem;
+    }
+
+    .section-featured {
+        margin-top: 2rem;
+        align-items: center;
+        justify-content: center;
+        gap: 2rem;
+    }
+
+    .section-featured-heading {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .featured,
+    .jobs {
+        font-size: 2.8rem;
+    }
+
+    .view-all-jobs {
+        font-size: 1.8rem;
+    }
+
+    .featured-jobs {
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .latest-jobs-openings {
+        width: 100vw;
+    }
+
+    .latest-jobs {
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    .section-latest-jobs-heading {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .latest_jobs,
+    .openings {
+        font-size: 2.8rem;
+    }
+
+    .view-all-jobs {
+        font-size: 1.8rem;
+    }
+
+    .latest-openings {
+        flex-direction: column;
+        width: 100vw;
+    }
+
+    .opening-cards {
+        width: 30rem;
+        flex-direction: column;
+    }
+
+    .footer {
+        width: 100vw;
+    }
+
+    .footer-row {
+        flex-direction: column;
+        width: 90%;
+        gap: 4rem
+    }
+
+    .foot-row-1-col-menu {
+        gap: 2rem;
+    }
+
+    .footer-row-2 {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 2rem;
+    }
+
+    .footer-copy {
+        padding: 0 2rem;
+    }
+
+    .footer-social {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+    }
+
+    .ic-baseline-facebook,
+    .mdi-linkedin,
+    .mdi-instagram,
+    .mdi-twitter {
+        position: initial;
+    }
+
+}

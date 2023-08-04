@@ -1,0 +1,606 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Montserrat Alternates', sans-serif; */
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+.select-user-page {
+    background: #ffffff;
+    width: 100vw;
+    /* height: 4337px; */
+    position: relative;
+    overflow: hidden;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 8rem;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.section-hero {
+    background-color: #f2f9ff;
+    width: 100vw;
+    padding: 0 15rem;
+    height: fit-content;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* ------------------------------------------------------------ */
+/* ------------------------------------------------------------ */
+
+.section-nav {
+    display: flex;
+    flex-direction: row;
+    gap: 28rem;
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;
+    width: 100vw;
+    background: transparent;
+    padding: 2rem 0;
+    z-index: 10;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.nav-logo {
+    flex-shrink: 0;
+    width: 232px;
+    height: 51.31px;
+    position: static;
+    cursor: pointer;
+}
+
+.logo {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+
+.edukaam {
+    color: #082338;
+    text-align: center;
+    font: 700 32px 'Montserrat Alternates', sans-serif;
+    position: absolute;
+    left: 69px;
+    top: 6px;
+}
+
+.nav-links {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.hamburger {
+    display: none;
+}
+
+
+.nav-btn {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.login-btn {
+    padding: 15px 30px 15px 30px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    position: relative;
+    outline: none;
+    border: none;
+    background: transparent;
+    /* cursor: none;
+    pointer-events: none; */
+    z-index: 1;
+}
+
+.login {
+    color: #1c75bc;
+    text-align: left;
+    font: 600 20px 'Montserrat Alternates', sans-serif;
+    position: relative;
+}
+
+.signUp-btn {
+    background: #1c75bc;
+    border-radius: 5px;
+    padding: 15px 30px 15px 30px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    position: relative;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    z-index: 1;
+}
+
+.sign-up {
+    color: #ffffff;
+    text-align: left;
+    font: 600 20px 'Montserrat Alternates', sans-serif;
+    position: relative;
+}
+
+/* ------------------------------------------------------------ */
+/* ------------------------------------------------------------ */
+
+.hero {
+    display: grid;
+    grid-template-columns: 1.1fr 1fr;
+    width: 100%;
+    height: fit-content;
+    position: relative;
+    overflow: hidden;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero-content {
+    margin-left: 28rem;
+    margin-top: 10rem;
+    position: relative;
+}
+
+.hero-bg-img {
+    width: 100%;
+}
+
+.hero-txt {
+    position: absolute;
+}
+
+.quote {
+    top: 20rem;
+    left: 10rem;
+}
+
+.quote-txt {
+    top: 24rem;
+    left: 10rem;
+    color: #fff;
+    font-size: 1.6rem;
+    line-height: 3.2rem;
+    width: 62%;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-align: justify;
+}
+
+.by {
+    top: 44rem;
+    left: 10rem;
+    color: #fff;
+    font-size: 1.8rem;
+    line-height: 2.8rem;
+    letter-spacing: 1px;
+    font-weight: 400;
+}
+
+.angle {
+    left: 48rem;
+    top: 48rem;
+}
+
+.select-user-type {
+    display: flex;
+    flex-direction: column;
+    padding-left: 10rem;
+    gap: 3.4rem;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.user-type-headline {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.5rem;
+}
+
+.welcome {
+    color: #082338;
+    font-size: 3rem;
+    font-weight: 700;
+    margin: 0;
+}
+
+.tagline {
+    color: #4991C9;
+    width: 42rem;
+    font-size: 1.6rem;
+    margin: 0;
+    font-weight: 400;
+    line-height: 2.4rem;
+    /* 150% */
+}
+
+.user-type-selector {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 3rem;
+}
+
+.individual {
+    background: #fff;
+    border: none !important;
+}
+
+.user-type-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.6rem;
+    border: 1px solid #1C75BC;
+    box-shadow: 0px 2px 14px 1px rgba(0, 0, 0, 0.06);
+    padding: 2rem;
+    gap: 1.4rem;
+    /* transition: .3s all ease-in-out; */
+}
+
+.type-right-arrow {
+    display: none;
+    /* transition: 2s all ease-in-out; */
+}
+
+.user-type-card:hover .type-right-arrow {
+    display: initial;
+}
+
+.type-txt {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+}
+
+.type-txt-title {
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: #082338;
+    margin: 0;
+}
+
+.type-txt-description {
+    color: #8692A6;
+    font-size: 1.4rem;
+    font-weight: 400;
+    width: 34rem;
+    margin: 0;
+}
+
+
+
+
+
+
+/* ------------------------------------------------------------ */
+/* ------------------------------------------------------------ */
+
+.footer {
+    background: #082338;
+    padding: 50px 0px 50px 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    position: relative;
+    width: 100vw;
+}
+
+.footer-row {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-shrink: 0;
+    width: 1200px;
+    max-width: 1200px;
+    position: relative;
+}
+
+.foot-row-1-col {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2rem;
+}
+
+.foot-row-1-col-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4rem;
+}
+
+.footer-logo {
+    flex-shrink: 0;
+    width: 232px;
+    height: 51.31px;
+    position: static;
+}
+
+.edukaam-logo {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+
+.edukaam-name {
+    color: #ffffff;
+    text-align: center;
+    font: 700 32px 'Montserrat Alternates', sans-serif;
+    position: absolute;
+    left: 69px;
+    top: 6px;
+}
+
+.about {
+    color: #ffffff;
+    text-align: left;
+    font: 700 16px 'Montserrat', sans-serif;
+    position: relative;
+}
+
+.resources {
+    color: #ffffff;
+    text-align: left;
+    font: 700 16px 'Montserrat', sans-serif;
+    position: relative;
+}
+
+.get-job-notification {
+    color: #ffffff;
+    text-align: left;
+    font: 700 16px 'Montserrat', sans-serif;
+    position: relative;
+}
+
+.company-desc {
+    color: #ffffff;
+    text-align: left;
+    font: 400 16px 'Montserrat', sans-serif;
+    position: relative;
+    width: 310px;
+}
+
+.footer-about-menu {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.companies,
+.pricing,
+.terms,
+.advice,
+.privacy-policy,
+.help-docs,
+.guide,
+.updates,
+.contact-us {
+    color: #ffffff;
+    text-align: left;
+    font: 400 16px 'Montserrat', sans-serif;
+    position: relative;
+}
+
+.footer-resources-menu {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.subscribe-section {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.subs-txt {
+    color: #ffffff;
+    text-align: left;
+    font: 400 16px 'Montserrat', sans-serif;
+    position: relative;
+    width: 345px;
+}
+
+.subs-form {
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    gap: 0px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.subs-email {
+    background: #ffffff;
+    padding: 14px 18px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.email-address {
+    color: #1c75bc;
+    text-align: left;
+    font: 600 14px 'Montserrat', sans-serif;
+    position: relative;
+    border: none;
+    outline: none;
+}
+
+.subs-btn {
+    background: #93c949;
+    border-radius: 0px 5px 5px 0px;
+    padding: 15px 30px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.subscribe {
+    color: #082338;
+    text-align: left;
+    font: 600 14px 'Montserrat', sans-serif;
+    position: relative;
+}
+
+.footer-row-2 {
+    display: flex;
+    flex-direction: row;
+    gap: 559px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    max-width: 1200px;
+    position: relative;
+}
+
+.footer-copy {
+    display: flex;
+    flex-direction: row;
+    gap: 9px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.copyright {
+    color: #ffffff;
+    text-align: left;
+    font: 400 16px 'Montserrat', sans-serif;
+    position: relative;
+}
+
+.ic-baseline-copyright {
+    flex-shrink: 0;
+    position: relative;
+    overflow: visible;
+}
+
+._2023-edukaam-all-rights-reserved {
+    color: #ffffff;
+    text-align: left;
+    font: 400 16px 'Montserrat', sans-serif;
+    position: relative;
+}
+
+.footer-social {
+    flex-shrink: 0;
+    width: 213px;
+    height: 36px;
+    position: static;
+}
+
+.ic-baseline-facebook {
+    position: absolute;
+    left: 987px;
+    bottom: 0px;
+    overflow: visible;
+}
+
+.mdi-linkedin {
+    position: absolute;
+    left: 1046px;
+    bottom: 0px;
+    overflow: visible;
+}
+
+.mdi-instagram {
+    position: absolute;
+    left: 1105px;
+    bottom: 0px;
+    overflow: visible;
+}
+
+.mdi-twitter {
+    position: absolute;
+    left: 1164px;
+    bottom: 0px;
+    overflow: visible;
+}
+
+.footer a {
+    text-decoration: none;
+}
